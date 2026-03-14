@@ -444,8 +444,6 @@ img {
   .benefits-subtitle {
     text-align: left;
     margin-bottom: 8px;
-    font-weight: 700;
-    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
@@ -770,6 +768,8 @@ img {
   }
 }
 .footer-logo {
+  display: block;
+  text-align: center;
   margin-bottom: 16px;
 }
 .logo-light {
@@ -793,7 +793,7 @@ img {
 }
 
 .footer-brand {
-  text-align: center;
+  text-align: left;
   /* max-width: 264px; */
 }
 @media only screen and (min-width: 768px) {
@@ -931,8 +931,7 @@ img {
 
 @media only screen and (min-width: 768px) {
   .footer-input {
-    width: 100%;
-    width: 288px;
+    width: 268px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -1138,7 +1137,7 @@ img {
   top: 50%;
   left: 50%;
 
-  max-width: 320px;
+  max-width: 288px;
   width: calc(100% - 32px);
   min-height: 584px;
   border-radius: 4px;
