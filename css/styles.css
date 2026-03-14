@@ -522,7 +522,6 @@ img {
 .team-item {
   background-color: #ffffff;
   width: 264px;
-  margin: 0 auto;
 
   border-radius: 0 0 4px 4px;
   box-shadow:
@@ -535,7 +534,6 @@ img {
 @media only screen and (min-width: 768px) {
   .team-item {
     width: 264px;
-    /* width: calc((100% - 24px) / 2); */
   }
 }
 
@@ -745,6 +743,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .footer-container {
+    min-width: 584px;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
@@ -755,7 +754,8 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer-container {
     flex-wrap: nowrap;
-    gap: 120px;
+    align-items: baseline;
+    gap: 0;
   }
 }
 .footer-logo {
@@ -847,8 +847,6 @@ img {
 }
 .footer-subscribe {
   width: 100%;
-  /* width: 453px;
-  margin-left: auto; */
 }
 @media only screen and (min-width: 768px) {
   .footer-subscribe {
@@ -856,7 +854,11 @@ img {
     margin-left: 0;
   }
 }
-
+@media only screen and (min-width: 1158px) {
+  .footer-subscribe {
+    margin-left: auto;
+  }
+}
 .footer-subscribe-title {
   margin-bottom: 16px;
   text-align: center;
