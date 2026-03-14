@@ -438,14 +438,15 @@ img {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) {
   .benefits-subtitle {
     text-align: left;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+
     color: #2e2f42;
   }
 }
@@ -513,6 +514,7 @@ img {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 64px 24px;
+    justify-content: center;
   }
 }
 .team-content {
@@ -738,12 +740,13 @@ img {
   align-items: center;
   gap: 72px;
   /* display: flex;
-  align-items: baseline;
-  gap: 120px; */
+   */
 }
 @media only screen and (min-width: 768px) {
   .footer-container {
-    min-width: 584px;
+    max-width: 584px;
+    margin: 0 auto;
+
     flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
@@ -755,7 +758,7 @@ img {
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 0;
+    gap: 120px;
   }
 }
 .footer-logo {
