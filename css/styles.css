@@ -767,7 +767,7 @@ img {
   .footer-container {
     flex-wrap: nowrap;
     align-items: baseline;
-    gap: 120px;
+    gap: 0px;
   }
 }
 .footer-logo {
@@ -817,6 +817,13 @@ img {
     flex-direction: column; */
   }
 }
+
+@media only screen and (min-width: 1158px) {
+  .footer-social {
+    margin-left: 120px;
+  }
+}
+
 .footer-social-title {
   margin-bottom: 16px;
   font-weight: 500;
